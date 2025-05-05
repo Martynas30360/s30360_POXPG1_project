@@ -25,7 +25,7 @@ public class GameController : MonoBehaviour
 
     public void OnClick()
     {
-        
+        SubmittedInput.text = OurInput.text;
     }
 
     // Update is called once per frame
